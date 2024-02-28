@@ -20,8 +20,8 @@ export default function Galeri() {
             quality={100}
             className="w-40 rounded-full border-2 border-white"
           />
-          <h1 className="font-bold text-white max-md:px-5 text-2xl uppercase">
-            Galeri Fightercock Bogor
+          <h1 className="font-bold w-96 max-md:w-80 text-white max-md:px-5 text-2xl uppercase">
+            Galeri Kemenangan Fightercock Gunung Putri Bogor
           </h1>
         </div>
         <div className="grid space-y-10 py-10 w-full justify-center">
@@ -76,7 +76,7 @@ export default function Galeri() {
         </div>
         <div className="w-full flex justify-center">
           <h1 className="font-semibold text-center py-5 mb-5 text-gray-300 w-96 max-md:w-80 text-sm">
-            Copyright © 2024 - Team Fightercock Bogor
+            Copyright © 2024 - Fightercock Bogor
           </h1>
         </div>
       </div>

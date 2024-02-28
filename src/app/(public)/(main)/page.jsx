@@ -27,6 +27,9 @@ export default function Home() {
               <li>
                 <Link href="/galeri">Galeri</Link>
               </li>
+              <li>
+                <Link href="/galeri">Koleksi</Link>
+              </li>
             </ul>
           </details>
         </div>
@@ -43,8 +46,11 @@ export default function Home() {
             Fightercock Bogor
           </h1>
           <h1 className="font-semibold text-gray-300 w-96 max-md:w-80 text-md">
-            Website Team FIGHTERCOCK BOGOR 🐓👑 <br /> Website ini adalah pusat
-            informasi dan komunitas bagi para pecinta ayam laga.
+            Website FIGHTERCOCK GUNUNG PUTRI BOGOR 🐓👑 <br /> Website ini adalah pusat
+            informasi, penghobi peternak dan petarung.
+          </h1>
+          <h1 className="font-semibold text-gray-300 w-96 max-md:w-80 text-md">
+            SIAP KIRIM KE SELURUH INDONESIA!!
           </h1>
         </div>
         <div className="w-full space-y-5 max-md:px-10 grid py-16 justify-center">
@@ -53,6 +59,12 @@ export default function Home() {
             href="/galeri"
           >
             Galeri
+          </Link>
+          <Link
+            className="btn w-96 max-md:w-64 bg-gray-900 text-white backdrop-blur-lg"
+            href="/"
+          >
+            Koleksi Amunisi Fightercock
           </Link>
           <Link
             href="https://wa.me/87784848585/"
@@ -94,7 +106,7 @@ export default function Home() {
       </div>
       <div className="w-full flex justify-center">
         <h1 className="font-semibold text-center py-5 mb-5 text-gray-300 w-96 max-md:w-80 text-sm">
-          Copyright © 2024 - Team Fightercock Bogor
+          Copyright © 2024 - Fightercock Bogor
         </h1>
       </div>
     </main>
