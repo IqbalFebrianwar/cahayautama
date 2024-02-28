@@ -1,5 +1,8 @@
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
+
+const AllImage = dynamic(() => import("@/components/allimage"));
 
 export default function Galeri() {
   return (
@@ -19,45 +22,20 @@ export default function Galeri() {
           </h1>
         </div>
         <div className="grid space-y-10 py-10 w-full justify-center">
-          <Image
-            src="/image1.png"
-            width={1000}
-            height={1000}
-            quality={100}
-            alt="image album"
-            className="max-w-md max-md:w-80"
+          <AllImage 
+            imagegaleri="/image1.png"
           />
-          <Image
-            src="/image2.png"
-            width={1000}
-            height={1000}
-            quality={100}
-            alt="image album"
-            className="max-w-md max-md:w-80"
+          <AllImage 
+            imagegaleri="/image2.png"
           />
-          <Image
-            src="/image3.png"
-            width={1000}
-            height={1000}
-            quality={100}
-            alt="image album"
-            className="max-w-md max-md:w-80"
+          <AllImage 
+            imagegaleri="/image3.png"
           />
-          <Image
-            src="/image4.png"
-            width={1000}
-            height={1000}
-            quality={100}
-            alt="image album"
-            className="max-w-md max-md:w-80"
+          <AllImage 
+            imagegaleri="/image4.png"
           />
-          <Image
-            src="/image5.png"
-            width={1000}
-            height={1000}
-            quality={100}
-            alt="image album"
-            className="max-w-md max-md:w-80"
+          <AllImage 
+            imagegaleri="/image5.png"
           />
         </div>
         <div className="w-full space-y-5 max-md:px-10 grid py-16 justify-center">
