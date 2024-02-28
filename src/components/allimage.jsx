@@ -5,9 +5,8 @@ const AllImage = ({imagegaleri}) => {
     <div>
       <Image
         src={imagegaleri}
-        width={1000}
-        height={1000}
-        quality={100}
+        width={200}
+        height={200}
         alt="image 1"
         className="w-96 max-md:w-64"
       />
