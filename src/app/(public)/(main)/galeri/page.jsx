@@ -10,7 +10,7 @@ export default function Galeri() {
       <div className="w-full py-20 justify-center">
         <div className="justify-center w-full flex flex-col space-y-10 items-center text-center">
           <Image
-            src="/static/images/logo.png"
+            src="/static/media/logo.png"
             width={10000}
             height={10000}
             alt="Logo"
@@ -23,19 +23,19 @@ export default function Galeri() {
         </div>
         <div className="grid space-y-10 py-10 w-full justify-center">
           <AllImage 
-            imagegaleri="/static/images/image1.png"
+            imagegaleri="/static/media/image1.png"
           />
           <AllImage 
-            imagegaleri="/static/images/image2.png"
+            imagegaleri="/static/media/image2.png"
           />
           <AllImage 
-            imagegaleri="/static/images/image3.png"
+            imagegaleri="/static/media/image3.png"
           />
           <AllImage 
-            imagegaleri="/static/images/image4.png"
+            imagegaleri="/static/media/image4.png"
           />
           <AllImage 
-            imagegaleri="/static/images/image5.png"
+            imagegaleri="/static/media/image5.png"
           />
         </div>
         <div className="w-full space-y-5 max-md:px-10 grid py-16 justify-center">
