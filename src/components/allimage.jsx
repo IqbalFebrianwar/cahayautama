@@ -9,7 +9,7 @@ const AllImage = ({imagegaleri}) => {
         height={1000}
         quality={100}
         alt="image 1"
-        className="max-w-md max-md:w-80"
+        className="w-96 max-md:w-64"
       />
     </div>
   );
