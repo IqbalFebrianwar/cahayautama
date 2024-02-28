@@ -1,12 +1,12 @@
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
-import ImageKemenangan1 from "@/components/image/image1.png"
-import ImageKemenangan2 from "@/components/image/image2.png"
-import ImageKemenangan3 from "@/components/image/image3.png"
-import ImageKemenangan4 from "@/components/image/image4.png"
-import ImageKemenangan5 from "@/components/image/image5.png"
-import Logo from "@/components/image/logo.png"
+import ImageKemenangan1 from "@/components/public/static/image1.png"
+import ImageKemenangan2 from "@/components/public/static/image2.png"
+import ImageKemenangan3 from "@/components/public/static/image3.png"
+import ImageKemenangan4 from "@/components/public/static/image4.png"
+import ImageKemenangan5 from "@/components/public/static/image5.png"
+import Logo from "@/components/public/static/logo.png"
 
 const AllImage = dynamic(() => import("@/components/allimage"));
 

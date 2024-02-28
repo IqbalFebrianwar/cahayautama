@@ -4,7 +4,7 @@ import Burger from "@/components/svg/burger.svg"
 import Wa from "@/components/svg/wa.svg"
 import Facebook from "@/components/svg/facebook.svg"
 import Telegram from "@/components/svg/telegram.svg"
-import Logo from "@/components/image/logo.png"
+import Logo from "@/components/public/static/logo.png"
 
 export default function Home() {
   return (
@@ -61,7 +61,7 @@ export default function Home() {
           </Link>
           <Link
             className="btn w-96 max-md:w-64 bg-gray-900 text-white backdrop-blur-lg"
-            href="/"
+            href="https://drive.google.com/drive/folders/1Bsiv50k5JYvdrch7omT1xquuJ9A5ayoJ"
           >
             Koleksi Amunisi Fightercock
           </Link>
