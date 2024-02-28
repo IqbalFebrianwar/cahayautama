@@ -5,7 +5,7 @@ const mulish = Mulish({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Fightercock Bogor",
-  description: "Team Fightercock Bogor adalah sebuah tim yang berdedikasi untuk pertarungan ayam laga. Berbasis di Bogor, Jawa Barat, tim ini memiliki fokus pada konservasi dan pengembangan ayam laga.",
+  description: "Fightercock Bogor adalah sebuah tim yang berdedikasi untuk pertarungan ayam laga. Berbasis di Bogor, Jawa Barat, tim ini memiliki fokus pada konservasi dan pengembangan ayam laga.",
 };
 
 export default function RootLayout({ children }) {

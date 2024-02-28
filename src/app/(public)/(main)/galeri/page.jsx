@@ -1,12 +1,6 @@
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
-import ImageKemenangan1 from "@/components/public/static/image1.png"
-import ImageKemenangan2 from "@/components/public/static/image2.png"
-import ImageKemenangan3 from "@/components/public/static/image3.png"
-import ImageKemenangan4 from "@/components/public/static/image4.png"
-import ImageKemenangan5 from "@/components/public/static/image5.png"
-import Logo from "@/components/public/static/logo.png"
 
 const AllImage = dynamic(() => import("@/components/allimage"));
 
@@ -16,7 +10,7 @@ export default function Galeri() {
       <div className="w-full py-20 justify-center">
         <div className="justify-center w-full flex flex-col space-y-10 items-center text-center">
           <Image
-            src={Logo}
+            src="/static/images/logo.png"
             width={10000}
             height={10000}
             alt="Logo"
@@ -29,19 +23,19 @@ export default function Galeri() {
         </div>
         <div className="grid space-y-10 py-10 w-full justify-center">
           <AllImage 
-            imagegaleri={ImageKemenangan1}
+            imagegaleri="/static/images/image1.png"
           />
           <AllImage 
-            imagegaleri={ImageKemenangan2}
+            imagegaleri="/static/images/image2.png"
           />
           <AllImage 
-            imagegaleri={ImageKemenangan3}
+            imagegaleri="/static/images/image3.png"
           />
           <AllImage 
-            imagegaleri={ImageKemenangan4}
+            imagegaleri="/static/images/image4.png"
           />
           <AllImage 
-            imagegaleri={ImageKemenangan5}
+            imagegaleri="/static/images/image5.png"
           />
         </div>
         <div className="w-full space-y-5 max-md:px-10 grid py-16 justify-center">
