@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Logo from "@/assets/image/logo.jpeg";
 import Link from "next/link";
+import Logo from "@/components/images/logo.jpeg"
 import Burger from "@/components/svg/burger.svg"
 import Wa from "@/components/svg/wa.svg"
 import Facebook from "@/components/svg/facebook.svg"
