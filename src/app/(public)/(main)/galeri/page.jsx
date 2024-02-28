@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Logo from "@/assets/image/logo.jpeg";
 import Link from "next/link";
-import Image1 from "@/assets/image/image1.jpeg";
-import Image2 from "@/assets/image/image2.jpeg";
-import Image3 from "@/assets/image/image3.jpeg";
-import Image4 from "@/assets/image/image4.jpeg";
-import Image5 from "@/assets/image/image5.jpeg";
+import Image1 from "@/public/images/image1jpeg";
+import Image2 from "@/public/images/image2.jpeg";
+import Image3 from "@/public/images/image3.jpeg";
+import Image4 from "@/public/images/image4.jpeg";
+import Image5 from "@/public/images/image5.jpeg";
 
 export default function Galeri() {
   return (
