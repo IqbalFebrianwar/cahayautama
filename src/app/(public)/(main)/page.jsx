@@ -4,6 +4,7 @@ import Burger from "@/components/svg/burger.svg"
 import Wa from "@/components/svg/wa.svg"
 import Facebook from "@/components/svg/facebook.svg"
 import Telegram from "@/components/svg/telegram.svg"
+import Logo from "@/components/image/logo.png"
 
 export default function Home() {
   return (
@@ -34,7 +35,7 @@ export default function Home() {
         </div>
         <div className="justify-center w-full flex flex-col space-y-10 items-center text-center">
           <Image
-            src="/logo.png"
+            src={Logo}
             width={10000}
             height={10000}
             alt="Logo"
