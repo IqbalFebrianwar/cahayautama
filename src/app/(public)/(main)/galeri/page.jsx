@@ -1,11 +1,5 @@
 import Image from "next/image";
-import Logo from "@/public/images/logo.png";
 import Link from "next/link";
-import Image1 from "@/public/images/image1.png";
-import Image2 from "@/public/images/image2.png";
-import Image3 from "@/public/images/image3.png";
-import Image4 from "@/public/images/image4.png";
-import Image5 from "@/public/images/image5.png";
 
 export default function Galeri() {
   return (
@@ -13,7 +7,7 @@ export default function Galeri() {
       <div className="w-full py-20 justify-center">
         <div className="justify-center w-full flex flex-col space-y-10 items-center text-center">
           <Image
-            src={Logo}
+            src="/logo.png"
             width={10000}
             height={10000}
             alt="Logo"
@@ -26,7 +20,7 @@ export default function Galeri() {
         </div>
         <div className="grid space-y-10 py-10 w-full justify-center">
           <Image
-            src={Image1}
+            src="/image1.png"
             width={1000}
             height={1000}
             quality={100}
@@ -34,7 +28,7 @@ export default function Galeri() {
             className="max-w-md max-md:w-80"
           />
           <Image
-            src={Image2}
+            src="/image2.png"
             width={1000}
             height={1000}
             quality={100}
@@ -42,7 +36,7 @@ export default function Galeri() {
             className="max-w-md max-md:w-80"
           />
           <Image
-            src={Image3}
+            src="/image3.png"
             width={1000}
             height={1000}
             quality={100}
@@ -50,7 +44,7 @@ export default function Galeri() {
             className="max-w-md max-md:w-80"
           />
           <Image
-            src={Image4}
+            src="/image4.png"
             width={1000}
             height={1000}
             quality={100}
@@ -58,7 +52,7 @@ export default function Galeri() {
             className="max-w-md max-md:w-80"
           />
           <Image
-            src={Image5}
+            src="/image5.png"
             width={1000}
             height={1000}
             quality={100}

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "@/public/images/logo.png"
 import Burger from "@/components/svg/burger.svg"
 import Wa from "@/components/svg/wa.svg"
 import Facebook from "@/components/svg/facebook.svg"
@@ -35,7 +34,7 @@ export default function Home() {
         </div>
         <div className="justify-center w-full flex flex-col space-y-10 items-center text-center">
           <Image
-            src={Logo}
+            src="/logo.png"
             width={10000}
             height={10000}
             alt="Logo"
