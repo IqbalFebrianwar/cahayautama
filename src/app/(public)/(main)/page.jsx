@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "@/components/images/logo.jpeg"
+import Logo from "@/public/images/logo.png"
 import Burger from "@/components/svg/burger.svg"
 import Wa from "@/components/svg/wa.svg"
 import Facebook from "@/components/svg/facebook.svg"
@@ -46,11 +46,10 @@ export default function Home() {
             Fightercock Bogor
           </h1>
           <h1 className="font-semibold text-gray-300 w-96 max-md:w-80 text-md">
-            Website FIGHTERCOCK GUNUNG PUTRI BOGOR 🐓👑 <br /> Website ini adalah pusat
-            informasi, penghobi peternak dan petarung.
+           FIGHTERCOCK GUNUNG PUTRI BOGOR 🐓👑 <br /> PENGHOBI, PETARUNG DAN PETERNAK
           </h1>
           <h1 className="font-semibold text-gray-300 w-96 max-md:w-80 text-md">
-            SIAP KIRIM KE SELURUH INDONESIA!!
+            SIAP KIRIM KE SELURUH INDONESIA!! <br /> #TARUNG DULU BARU CURHAT 😎
           </h1>
         </div>
         <div className="w-full space-y-5 max-md:px-10 grid py-16 justify-center">
