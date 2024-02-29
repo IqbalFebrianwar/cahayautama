@@ -34,7 +34,7 @@ export default function Home() {
         </div>
         <div className="justify-center w-full flex flex-col space-y-10 items-center text-center">
           <Image
-            src="https://res.cloudinary.com/dclruck55/image/upload/v1709181654/assetsfightercock/logo2_hcwwtz.jpg"
+            src="https://res.cloudinary.com/dclruck55/image/upload/v1709187621/assetsfightercock/logo3_zqlvll.jpg"
             width={10000}
             height={10000}
             alt="Logo"
