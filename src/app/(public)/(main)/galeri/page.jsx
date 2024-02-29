@@ -10,7 +10,7 @@ export default function Galeri() {
       <div className="w-full py-20 justify-center">
         <div className="justify-center w-full flex flex-col space-y-10 items-center text-center">
           <Image
-            src="/static/media/logo.png"
+            src="https://res.cloudinary.com/dclruck55/image/upload/v1709181654/assetsfightercock/logo2_hcwwtz.jpg"
             width={10000}
             height={10000}
             alt="Logo"
@@ -23,19 +23,34 @@ export default function Galeri() {
         </div>
         <div className="grid space-y-10 py-10 w-full justify-center">
           <AllImage 
-            imagegaleri="/static/media/image1.png"
+            imagegaleri="https://res.cloudinary.com/dclruck55/image/upload/v1709181658/assetsfightercock/image1_pzla9a.jpg"
           />
           <AllImage 
-            imagegaleri="/static/media/image2.png"
+            imagegaleri="https://res.cloudinary.com/dclruck55/image/upload/v1709181657/assetsfightercock/image2_tnn0h0.jpg"
           />
           <AllImage 
-            imagegaleri="/static/media/image3.png"
+            imagegaleri="https://res.cloudinary.com/dclruck55/image/upload/v1709181656/assetsfightercock/image3_se8ngb.jpg"
           />
           <AllImage 
-            imagegaleri="/static/media/image4.png"
+            imagegaleri="https://res.cloudinary.com/dclruck55/image/upload/v1709183327/assetsfightercock/image4_pup1m7.jpg"
           />
           <AllImage 
-            imagegaleri="/static/media/image5.png"
+            imagegaleri="https://res.cloudinary.com/dclruck55/image/upload/v1709181649/assetsfightercock/image5_c8ibft.jpg"
+          />
+          <AllImage 
+            imagegaleri="https://res.cloudinary.com/dclruck55/image/upload/v1709181644/assetsfightercock/image6_m1pekv.jpg"
+          />
+          <AllImage 
+            imagegaleri="https://res.cloudinary.com/dclruck55/image/upload/v1709181637/assetsfightercock/image7_pqrljv.jpg"
+          />
+          <AllImage 
+            imagegaleri="https://res.cloudinary.com/dclruck55/image/upload/v1709181643/assetsfightercock/image8_lcqv5m.jpg"
+          />
+          <AllImage 
+            imagegaleri="https://res.cloudinary.com/dclruck55/image/upload/v1709181635/assetsfightercock/image9_zq5xw6.jpg"
+          />
+          <AllImage 
+            imagegaleri="https://res.cloudinary.com/dclruck55/image/upload/v1709181637/assetsfightercock/image10_uhvhqc.jpg"
           />
         </div>
         <div className="w-full space-y-5 max-md:px-10 grid py-16 justify-center">

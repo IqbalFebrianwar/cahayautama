@@ -34,7 +34,7 @@ export default function Home() {
         </div>
         <div className="justify-center w-full flex flex-col space-y-10 items-center text-center">
           <Image
-            src="/static/media/logo.png"
+            src="https://res.cloudinary.com/dclruck55/image/upload/v1709181654/assetsfightercock/logo2_hcwwtz.jpg"
             width={10000}
             height={10000}
             alt="Logo"
@@ -65,7 +65,7 @@ export default function Home() {
             Koleksi Amunisi Fightercock
           </Link>
           <Link
-            href="https://wa.me/87784848585/"
+            href="https://wa.me/6287784848585/"
             className="btn w-96 max-md:w-64 bg-gray-900 text-white backdrop-blur-lg"
           >
             <Image 
