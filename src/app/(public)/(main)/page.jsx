@@ -27,7 +27,7 @@ export default function Home() {
                 <Link href="/galeri">Galeri</Link>
               </li>
               <li>
-                <Link href="/galeri">Koleksi</Link>
+                <Link href="https://drive.google.com/drive/folders/1Bsiv50k5JYvdrch7omT1xquuJ9A5ayoJ">Koleksi</Link>
               </li>
             </ul>
           </details>
