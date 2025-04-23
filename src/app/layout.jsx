@@ -4,8 +4,8 @@ import "./globals.css";
 const mulish = Mulish({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Fightercock Bogor",
-  description: "Fightercock Bogor adalah sebuah tim yang berdedikasi untuk pertarungan ayam laga. Berbasis di Bogor, Jawa Barat, tim ini memiliki fokus pada konservasi dan pengembangan ayam laga.",
+  title: "Cahaya Utama Jaya",
+  description: "Cahaya Utama Jaya adalah toko yang menjual motor mini, mini ATV, dan sepeda listrik berkualitas. Kami menghadirkan pilihan kendaraan mini yang seru, tangguh, dan ramah lingkungan, cocok untuk segala usia. Dapatkan produk terbaik dengan harga bersaing dan pelayanan terpercaya hanya di Cahaya Utama Jaya!",
 };
 
 export default function RootLayout({ children }) {

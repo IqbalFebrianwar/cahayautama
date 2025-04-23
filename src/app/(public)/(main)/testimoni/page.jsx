@@ -18,15 +18,17 @@ export default function Galeri() {
             className="w-40 rounded-full border-2 border-white"
           />
           <h1 className="font-bold w-96 max-md:w-80 text-white max-md:px-5 text-2xl uppercase">
-            Galeri Cahaya Utama Jaya
+            Bukti Testimoni Pelanggan Cahaya Utama Jaya
           </h1>
         </div>
         <div className="grid space-y-10 py-10 w-full justify-center">
-          <AllImage imagegaleri="https://res.cloudinary.com/df6nytit6/image/upload/v1745390749/cahaya%20utama/WhatsApp_Image_2025-04-09_at_13.05.06_764301dc_iwx0jo.jpg" />
-          <AllImage imagegaleri="https://res.cloudinary.com/df6nytit6/image/upload/v1745390749/cahaya%20utama/WhatsApp_Image_2025-04-09_at_13.05.07_ec50e867_zvf8ng.jpg" />
-          <AllImage imagegaleri="https://res.cloudinary.com/df6nytit6/image/upload/v1745390748/cahaya%20utama/WhatsApp_Image_2025-04-09_at_13.05.33_177c1ccf_kt7eba.jpg" />
-          <AllImage imagegaleri="https://res.cloudinary.com/df6nytit6/image/upload/v1745390749/cahaya%20utama/WhatsApp_Image_2025-04-09_at_13.04.37_a6c2dee3_ob4fni.jpg" />
-          <AllImage imagegaleri="https://res.cloudinary.com/df6nytit6/image/upload/v1745390748/cahaya%20utama/WhatsApp_Image_2025-04-09_at_13.05.32_7992d499_piosrr.jpg" />
+          <AllImage imagegaleri="https://res.cloudinary.com/df6nytit6/image/upload/v1745390753/cahaya%20utama/WhatsApp_Image_2025-04-09_at_13.17.25_dbfcd173_e9svlp.jpg" />
+          <AllImage imagegaleri="https://res.cloudinary.com/df6nytit6/image/upload/v1745390752/cahaya%20utama/WhatsApp_Image_2025-04-09_at_13.17.23_674295b1_hso0i4.jpg" />
+          <AllImage imagegaleri="https://res.cloudinary.com/df6nytit6/image/upload/v1745390752/cahaya%20utama/WhatsApp_Image_2025-04-09_at_13.17.24_4dda1ac1_udfzzq.jpg" />
+          <AllImage imagegaleri="https://res.cloudinary.com/df6nytit6/image/upload/v1745390751/cahaya%20utama/WhatsApp_Image_2025-04-09_at_13.17.23_8550b44b_c8d1lq.jpg" />
+          <AllImage imagegaleri="https://res.cloudinary.com/df6nytit6/image/upload/v1745390751/cahaya%20utama/WhatsApp_Image_2025-04-09_at_13.17.22_0f1f34e3_l3nbtd.jpg" />
+          <AllImage imagegaleri="https://res.cloudinary.com/df6nytit6/image/upload/v1745390750/cahaya%20utama/WhatsApp_Image_2025-04-09_at_13.17.22_7ca997de_avsbs7.jpg" />
+          <AllImage imagegaleri="https://res.cloudinary.com/df6nytit6/image/upload/v1745390750/cahaya%20utama/WhatsApp_Image_2025-04-09_at_13.17.22_56a66206_xbefga.jpg" />
         </div>
         <div className="w-full space-y-5 max-md:px-10 grid py-16 justify-center">
           <Link

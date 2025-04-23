@@ -27,14 +27,14 @@ export default function Home() {
                 <Link href="/galeri">Galeri</Link>
               </li>
               <li>
-                <Link href="https://drive.google.com/drive/folders/1Bsiv50k5JYvdrch7omT1xquuJ9A5ayoJ">Koleksi</Link>
+                <Link href="/testimoni">Testimoni</Link>
               </li>
             </ul>
           </details>
         </div>
         <div className="justify-center w-full flex flex-col space-y-10 items-center text-center">
           <Image
-            src="https://res.cloudinary.com/dclruck55/image/upload/v1709187621/assetsfightercock/logo3_zqlvll.jpg"
+            src="https://res.cloudinary.com/df6nytit6/image/upload/v1745390304/cahaya%20utama/logo_cahaya_utama_ti5lwk.png"
             width={10000}
             height={10000}
             alt="Logo"
@@ -42,13 +42,10 @@ export default function Home() {
             className="w-40 rounded-full border-2 border-white"
           />
           <h1 className="font-bold text-white text-2xl uppercase">
-            Fightercock Bogor
+            Cahaya Utama Jaya
           </h1>
           <h1 className="font-semibold text-gray-300 w-96 max-md:w-80 text-md">
-           FIGHTERCOCK GUNUNG PUTRI BOGOR 🐓👑 <br /> PENGHOBI, PETARUNG DAN PETERNAK
-          </h1>
-          <h1 className="font-semibold text-gray-300 w-96 max-md:w-80 text-md">
-            SIAP KIRIM KE SELURUH INDONESIA!! <br /> #TARUNG DULU BARU CURHAT 😎
+          Cahaya Utama Jaya adalah toko yang menjual motor mini, mini ATV, dan sepeda listrik berkualitas. Kami menghadirkan pilihan kendaraan mini yang seru, tangguh, dan ramah lingkungan, cocok untuk segala usia. Dapatkan produk terbaik dengan harga bersaing dan pelayanan terpercaya hanya di Cahaya Utama Jaya!
           </h1>
         </div>
         <div className="w-full space-y-5 max-md:px-10 grid py-16 justify-center">
@@ -60,12 +57,12 @@ export default function Home() {
           </Link>
           <Link
             className="btn w-96 max-md:w-64 bg-gray-900 text-white backdrop-blur-lg"
-            href="https://drive.google.com/drive/folders/1Bsiv50k5JYvdrch7omT1xquuJ9A5ayoJ"
+            href="/testimoni"
           >
-            Koleksi Amunisi Fightercock
+            Testimoni
           </Link>
           <Link
-            href="https://wa.me/6287784848585/"
+            href="https://wa.me/6285399261542"
             className="btn w-96 max-md:w-64 bg-gray-900 text-white backdrop-blur-lg"
           >
             <Image 
@@ -77,7 +74,7 @@ export default function Home() {
             WhatsApp
           </Link>
           <Link
-            href="https://www.facebook.com/profile.php?id=100095224391392&mibextid=PtKPJ9"
+            href="https://www.facebook.com/share/15e6kdjtLG/"
             className="btn w-96 max-md:w-64 bg-gray-900 text-white backdrop-blur-lg"
           >
             <Image 
@@ -89,22 +86,22 @@ export default function Home() {
             Facebook
           </Link>
           <Link
-            href="https://t.me/+6zwlwev5now2NzQ1"
+            href="."
             className="btn w-96 max-md:w-64 bg-gray-900 text-white backdrop-blur-lg"
           >
             <Image 
-              src={Telegram}
+              src="https://res.cloudinary.com/df6nytit6/image/upload/v1745391474/cahaya%20utama/instagram_txfkfu.png"
               width={20}
               height={20}
               alt="Sosmed"
               />
-            Telegram
+            Instagram
           </Link>
         </div>
       </div>
       <div className="w-full flex justify-center">
         <h1 className="font-semibold text-center py-5 mb-5 text-gray-300 w-96 max-md:w-80 text-sm">
-          Copyright © 2024 - Fightercock Bogor
+          Copyright © 2025 - Cahaya Utama Jaya
         </h1>
       </div>
     </main>

@@ -6,7 +6,7 @@ const nextConfig = {
             protocol: 'https',
             hostname: 'res.cloudinary.com',
             port: '',
-            pathname: '/dclruck55/image/upload/**',
+            pathname: '/df6nytit6/image/upload/**',
           },
         ],
       },
