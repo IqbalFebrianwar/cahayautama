@@ -7,7 +7,7 @@ import Telegram from "@/components/svg/telegram.svg"
 
 export default function Home() {
   return (
-    <main className="w-full justify-center bg-gradient-to-tr from-rose-900 via-black to-red-900">
+    <main className="w-full justify-center bg-gradient-to-r from-rose-700 to-pink-600">
       <div className="w-full py-20 justify-center">
         <div className="w-full flex justify-end  lg:px-96 md:px-20 sm:px-20">
           <details className="dropdown dropdown-end">

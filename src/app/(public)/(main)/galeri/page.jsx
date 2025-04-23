@@ -6,7 +6,7 @@ const AllImage = dynamic(() => import("@/components/allimage"));
 
 export default function Galeri() {
   return (
-    <main className="w-full justify-center bg-gradient-to-tr from-rose-900 via-black to-red-900">
+    <main className="w-full justify-center bg-gradient-to-r from-rose-700 to-pink-600">
       <div className="w-full py-20 justify-center">
         <div className="justify-center w-full flex flex-col space-y-10 items-center text-center">
           <Image
